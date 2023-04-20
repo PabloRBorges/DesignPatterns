@@ -1,0 +1,20 @@
+﻿O Builder é um padrão de projeto criacional que permite a você construir objetos complexos passo a passo. 
+O padrão permite que você produza diferentes tipos e representações de um objeto usando o mesmo código de construção.
+
+-A classe cliente não precisa conhecer a implementação.
+Para ter um sistema desacoplado.
+
+
+Integrantes do Padrão:
+
+* Builder
+Define a interface para a criação das partes do Objeto
+
+* Concrete Builder
+Define a implementação das partes do objeto
+
+* Product
+Representa o objeto que está sendo construído
+
+* Director
+Constrói o objeto utilizando o Builder

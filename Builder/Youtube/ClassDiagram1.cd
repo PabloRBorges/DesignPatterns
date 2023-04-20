@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Builder.Youtube.Build.MidiaSocialBuilder" Collapsed="true">
+    <Position X="4.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAEAAAAgAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Youtube\Build\MidiaSocialBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Builder.Youtube.Build.MidiaSocialFacebookBuilder" Collapsed="true">
+    <Position X="5.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Youtube\Build\MidiaSocialFacebookBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Builder.Youtube.Build.MidiaSocialTwitterBuilder" Collapsed="true">
+    <Position X="3.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Youtube\Build\MidiaSocialTwitterBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Builder.Youtube.Products.MidiaSocial" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAIAAAAAAAAAAAASAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Youtube\Products\MidiaSocial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Builder.Youtube.Director" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Youtube\Director.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

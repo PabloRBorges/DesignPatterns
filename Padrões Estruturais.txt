@@ -1,0 +1,36 @@
+Padrões de projeto estruturais
+Os padrões estruturais explicam como montar objetos e classes em estruturas maiores mas ainda mantendo essas estruturas flexíveis e eficientes.
+
+ - Casos de uso
+
+Abstract Factory + Bridge
+Você pode usar o Abstract Factory junto com o Bridge. 
+Esse pareamento é útil quando algumas abstrações definidas pelo Bridge só podem trabalhar com implementações específicas. 
+Neste caso, o Abstract Factory pode encapsular essas relações e esconder a complexidade do código cliente.
+
+Você pode combinar o Builder com o Bridge: 
+a classe diretor tem um papel de abstração, enquanto que diferentes construtores agem como implementações.
+
+
+:Composite
+Relações com outros padrões
+Você pode usar o Builder quando criar árvores Composite complexas porque você pode programar suas etapas de construção para trabalhar recursivamente.
+
+O Chain of Responsibility é frequentemente usado em conjunto com o Composite. Neste caso, quando um componente folha recebe um pedido,
+ele pode passá-lo através de uma corrente de todos os componentes pai até a raiz do objeto árvore.
+
+Você pode usar Iteradores para percorrer árvores Composite.
+
+Você pode usar o Visitor para executar uma operação sobre uma árvore Composite inteira.
+
+Você pode implementar nós folha compartilhados da árvore Composite como Flyweights para salvar RAM.
+
+O Composite e o Decorator tem diagramas estruturais parecidos já que ambos dependem de composição recursiva para organizar um número indefinido de objetos.
+
+Um Decorador é como um Composite mas tem apenas um componente filho. Há outra diferença significativa: o Decorador adiciona responsabilidades
+adicionais ao objeto envolvido, enquanto que o Composite apenas “soma” o resultado de seus filhos.
+
+Contudo, os padrões também podem cooperar: você pode usar o Decorador para estender o comportamento de um objeto específico na árvore Composite
+
+Projetos que fazem um uso pesado de Composite e do Decorator podem se beneficiar com frequência do uso do Prototype. 
+Aplicando o padrão permite que você clone estruturas complexas ao invés de reconstruí-las do zero.

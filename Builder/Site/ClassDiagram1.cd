@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Builder.Site.Product.Products" Collapsed="true">
+    <Position X="3.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Site\Product\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Builder.Site.ConcreteBuilder" Collapsed="true">
+    <Position X="1.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAMACAAAAAAAAAIAACAAAAAA=</HashCode>
+      <FileName>Site\ConcreteBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Right" Position="0.215" />
+  </Class>
+  <Class Name="Builder.Site.Director" Collapsed="true">
+    <Position X="4.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAEAAAAACAA=</HashCode>
+      <FileName>Site\Director.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Builder.Site.Interface.IBuilder" Collapsed="true">
+    <Position X="1.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAMACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Site\Interface\IBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

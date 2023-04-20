@@ -1,0 +1,9 @@
+Command
+Relações com outros padrões
+O Chain of Responsibility, Command, Mediator e Observer abrangem várias maneiras de se conectar remetentes e 
+destinatários de pedidos:
+
+- Chain of Responsibility passa um pedido sequencialmente ao longo de um corrente dinâmica de potenciais destinatários até que um deles atua no pedido.
+- Command estabelece conexões unidirecionais entre remetentes e destinatários.
+- Mediator elimina as conexões diretas entre remetentes e destinatários, forçando-os a se comunicar indiretamente através de um objeto mediador.
+- Observer permite que destinatários inscrevam-se ou cancelem sua inscrição dinamicamente para receber pedidos.

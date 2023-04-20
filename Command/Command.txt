@@ -1,0 +1,7 @@
+﻿Padrão de Projeto Command
+
+1 - Encapsular solicitações na forma de objetos
+2 - Desacopla o cliente da implementação
+3 - Define um objetivo com propriedades relevantes ao processo (use case)
+4 - Permite a rastreabilidade dos comandos permitindo que solicitações possam ser mapeadas e desfeitas
+5 - Podem ser enfileirados e recebidos por diversos clientes
