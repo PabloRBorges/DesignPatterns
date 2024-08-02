@@ -1,12 +1,36 @@
-﻿using System;
+using Decorator.Controllers;
+using Decorator.Repository;
+using Decorator.Repository.Caching;
 
-namespace Decorator
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+
+builder.Services.AddControllers();
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+builder.Services.AddMemoryCache();
+
+builder.Services.AddScoped<Logger<HomeController>>();
+builder.Services.AddScoped<ICarStore,CarStore>();
+builder.Services.Decorate<ICarStore, CarStoreCaching>();
+
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+var app = builder.Build();
+
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
 {
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
-    }
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
+
+app.UseHttpsRedirection();
+
+app.UseAuthorization();
+
+app.MapControllers();
+
+app.Run();

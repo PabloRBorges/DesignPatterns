@@ -1,6 +1,6 @@
 ﻿namespace FactoryMethod.Site
 {
-   public  class ConcreteProduct1 : IProduct
+    public class ConcreteProduct1 : IProduct
     {
         public string OperationOfProduct()
         {
